@@ -4,5 +4,5 @@ git init
 git add
 git commit -m "message"
 Before push we have to add  the remote location of repo
-git remote -u origin
-git push origin "branch name" 
+git remote add origin "remote repo_url"
+git push -u origin "branch name" 
